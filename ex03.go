@@ -1,7 +1,7 @@
 package main
 
-import (" 
-	fmt"
+import (
+	"fmt"
 )
 
 func analisarIntervalo(inicio, fim int) (pares int, impares int, somaTotal int) {
