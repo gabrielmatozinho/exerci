@@ -38,7 +38,7 @@ function App() {
         localStorage.setItem("tasks", JSON.stringify(tasks));
     }, [tasks]);
 
-    // Concluir tarefa
+   
     function OnTaskClick(TaskId) {
         const newTasks = tasks.map((task) => {
             if (task.id === TaskId) {
